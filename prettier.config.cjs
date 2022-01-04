@@ -10,7 +10,7 @@ module.exports = {
       files: ['*.md'],
       options: {
         printWidth: 120,
-        proseWrap: 'always',
+        proseWrap: 'preserve',
         tabWidth: 4,
       },
     },
