@@ -1,0 +1,36 @@
+{
+  "name": "@run-z/prettier-config",
+  "version": "1.0.0",
+  "description": "Run Z Prettier configuration",
+  "homepage": "https://github.com/run-z/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:run-z/prettier-config.git"
+  },
+  "license": "MIT",
+  "author": "Ruslan Lopatin <ruslan.lopatin@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/run-z/prettier-config/issues"
+  },
+  "type": "module",
+  "main": "./prettier.config.cjs",
+  "exports": {
+    ".": "./prettier.config.cjs"
+  },
+  "peerDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1",
+    "run-z": "=1.10.0-bootstrap"
+  },
+  "scripts": {
+    "all": "run-z build",
+    "build": "run-z",
+    "clean": "run-z",
+    "format": "prettier --write \"**.{json,md}\"",
+    "lint": "run-z",
+    "test": "run-z",
+    "z": "run-z"
+  }
+}
