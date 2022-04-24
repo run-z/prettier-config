@@ -12,7 +12,7 @@ module.exports = {
       options: {
         printWidth: 120,
         proseWrap: 'preserve',
-        tabWidth: 4,
+        tabWidth: 2,
       },
     },
   ],
