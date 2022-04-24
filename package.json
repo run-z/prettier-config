@@ -28,7 +28,7 @@
     "all": "run-z build",
     "build": "run-z",
     "clean": "run-z",
-    "format": "prettier --write \"**.{json,md}\"",
+    "format": "prettier --write \"**/*.{json,md}\"",
     "lint": "run-z",
     "test": "run-z",
     "z": "run-z"
