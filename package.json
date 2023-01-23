@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "prettier": "^2.8.3",
-    "run-z": "1.10.1-bootstrap"
+    "run-z": "1.11.0-bootstrap"
   },
   "scripts": {
     "all": "run-z build",
