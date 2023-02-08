@@ -18,10 +18,10 @@
     ".": "./prettier.config.cjs"
   },
   "peerDependencies": {
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.4"
   },
   "devDependencies": {
-    "prettier": "^2.8.3",
+    "prettier": "^2.8.4",
     "run-z": "1.11.0-bootstrap"
   },
   "scripts": {
