@@ -17,6 +17,7 @@
   "exports": {
     ".": "./prettier.config.cjs"
   },
+  "sideEffects": false,
   "peerDependencies": {
     "prettier": "^2.8.8"
   },
