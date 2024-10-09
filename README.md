@@ -23,8 +23,10 @@ Add dependencies:
 pnpm add -D prettier @run-z/prettier-config
 ```
 
-Put the following to `.prettierrc.cjs`:
+Put the following to `prettier.config.js`:
 
 ```javascript
-module.exports = require('@run-z/prettier-config');
+import config from '@run-z/prettier-config';
+
+export default config;
 ```
