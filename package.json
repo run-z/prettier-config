@@ -1,6 +1,6 @@
 {
   "name": "@run-z/prettier-config",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Run Z Prettier configuration",
   "homepage": "https://github.com/run-z/prettier-config",
   "repository": {
@@ -13,16 +13,13 @@
     "url": "https://github.com/run-z/prettier-config/issues"
   },
   "type": "module",
-  "main": "./prettier.config.cjs",
-  "exports": {
-    ".": "./prettier.config.cjs"
-  },
+  "exports": "./prettier.config.js",
   "sideEffects": false,
   "peerDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^3.3.3"
   },
   "devDependencies": {
-    "prettier": "^2.8.8",
+    "prettier": "^3.3.3",
     "run-z": "2.1.0-bootstrap"
   },
   "scripts": {
